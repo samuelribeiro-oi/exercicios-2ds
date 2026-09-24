@@ -48,18 +48,27 @@ class Moto extends Veiculo {
 
 }
 
-// Criando os veículos
 
-const carro = new Carro("Toyota", "Corolla", 4)
 
-const moto = new Moto("Honda", "CG 160", 160)
+module.exports = {
+    Veiculo,
+    Carro,
+    Moto
+}
 
-// Exibindo informações
 
-console.log("=== CARRO ===")
-console.log(carro.descricao())
-console.log(carro.abrirPortas())
 
-console.log("\n=== MOTO ===")
-console.log(moto.descricao())
-console.log(moto.ligarMotor())
+if (require.main === module) {
+
+    const carro = new Carro("Toyota", "Corolla", 4)
+    const moto = new Moto("Honda", "CG 160", 160)
+
+    console.log("=== CARRO ===")
+    console.log(carro.descricao())
+    console.log(carro.abrirPortas())
+
+    console.log("\n=== MOTO ===")
+    console.log(moto.descricao())
+    console.log(moto.ligarMotor())
+
+}
