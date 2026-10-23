@@ -2,7 +2,7 @@
 const express = require("express")
 const app = express()
 
-const routePrincipal = require("./routes")
+const routePrincipal = require("./routes/index")
 
 app.use(express.json())
 
