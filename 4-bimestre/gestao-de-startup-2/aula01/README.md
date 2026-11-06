@@ -235,4 +235,5 @@ Deixe a página aberta no seu computador. Visite os colegas ao lado e dê nota n
 **3. Responda**
 
 - Quantas respostas e qual o NPS?
-- Complete: *"Se este NPS cair, eu vou ______."*
+- 
+- Complete: *"Se este NPS cair, eu vou analisar as avaliações dos usuários, identificar os problemas do aplicativo e implementar melhorias para aumentar a satisfação dos alunos.______."*
