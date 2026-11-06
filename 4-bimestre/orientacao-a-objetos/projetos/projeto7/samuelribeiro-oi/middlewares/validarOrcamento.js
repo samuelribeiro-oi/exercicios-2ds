@@ -1,5 +1,5 @@
 function validarOrcamento(req, res, next) {
-    const { cliente, item, valor } = req.body
+    const { cliente, item, valor } = req.body || {}
 
     if (!cliente) {
         const erro = new Error("O campo cliente e obrigatorio")
